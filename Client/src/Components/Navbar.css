@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: 'ThreadFeedFont';
+    src: url('../assets/Fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  .navbar-brand{
+    font-family: 'ThreadFeedFont', sans-serif;
+    padding-left: 0;
+    font-weight: 600;  
+    font-size: 2rem !important;
+  }
+
+  
+.custom-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.cont-ainer {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
+    display: flex;
+   align-items: baseline; 
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+.theme-toggle:hover, .logout:hover {
+    background: none; 
+    text-decoration: underline; 
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+
+.theme-toggle, .logout {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.logout {
+    color: red;
+    font-weight: bold;
+}
+
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        background: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: none;
+        flex-direction: column;
+        padding: 10px;
+        text-align: right;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+ 
+

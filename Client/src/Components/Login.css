@@ -1,0 +1,87 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.page {
+    background-image: url('../assets/background.jpeg'); 
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+@font-face {
+    font-family: 'ThreadFeedFont';
+    src: url('../assets/Fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  .page h1{
+    font-family: 'ThreadFeedFont', sans-serif;
+  }
+.page h1{
+    margin-top: 80px;
+    margin-left: 630px;
+    font-size: 3.5rem;
+}
+
+.login-container {
+    background-color: rgb(210, 129, 67);
+    width: 500px;
+    height:400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: bisque;
+}
+input:hover, .container:hover, button{
+    transform: scale(1.02);
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+}
+
+span {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+span:hover {
+    text-decoration: underline;
+}

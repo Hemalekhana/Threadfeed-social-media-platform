@@ -1,0 +1,57 @@
+.fe-ed-container {
+    flex: 1;
+    max-height: 80vh; 
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.po-st {
+    background: #f9f9f9;
+    border: 2px solid #ddd; 
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px; 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.post-head-er {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.pro-file-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd; 
+}
+
+
+.po-st-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+.fe-ed-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.fe-ed-container::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 4px;
+}
+
+.fe-ed-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}

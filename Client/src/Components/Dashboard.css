@@ -1,0 +1,18 @@
+.bo-dy{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.bo-dy .side-bar,.bo-dy .fe-ed, .bo-dy .search-users{
+
+    box-shadow: 0px 5px 5px 1px grey;
+}
+.bo-dy .fe-ed{
+   width: 800px;
+    border-bottom: solid 1px black;
+}
+.bo-dy .search-users{
+    width: 400px;
+    height: 100vh;
+}
